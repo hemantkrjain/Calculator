@@ -13,11 +13,35 @@
     justify-content: center;
 }
 .calculator{
+    display: grid;
+    grid:'a a a a'
+    'b b b b '
+    'c c c c'    
+    'd d d d'
+    'e e e e';
     background: #3a4452;
     padding: 20px;
     border-radius: 20px;
 }
+.item-1{
+    grid-area: a;
+}
+.item-2{
+    grid-area: b;
+}
+.item-3{
+    grid-area: c;
+}
+.item-4{
+    grid-area: d;
+}
+.item-5{
+    grid-area: e;
+}
+
 .calculator form input{
+    
+    
     border: 0;
     outline: 0;
     width: 60px;
